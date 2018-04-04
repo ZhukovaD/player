@@ -1,0 +1,15 @@
+.video{
+    position: relative;
+    max-width: 711px;
+    margin: auto;
+    font-family: var(--base-font);
+    font-weight: 100;
+    font-size: var(--font-size);
+}
+
+.video__player{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    background: url("https://www.esteelauder.ru/media/export/cms/products/79x115/el_sku_R0X401_79x115_0.jpg");
+}

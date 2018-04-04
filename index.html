@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <main class = "page-main">
+        <section class="video">
+            <h1 class="visually-hidden">Видео с котиками</h1>
+            <video class="video__player" controls poster="img/cat.jpg" height="400">
+                <source src='img/cats-video.mp4' type="video/mp4">
+            </video>
+            <div class = "popup">
+                <div class="popup__wrapper">
+                    <div class="popup__title">Для продолжения просмотра нужно пройти регистрацию</div>
+                    <form class="popup__form">
+                        <div class="popup__form-wrapper">
+                            <input class="popup__email" type="email" name="email" placeholder="example@mail.com"
+                                   autocomplete="on" value="" autofocus required>
+                            <button class="popup__submit" type="submit">OK</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/player.js"></script>
+</body>
+</html>
