@@ -1,5 +1,6 @@
-@import "css/basic.css";
+@import "css/normalize.css";
 @import "css/variables.css";
+@import "css/basic.css";
 @import "css/blocks/page-main.css";
 @import "css/blocks/video.css";
 @import "css/blocks/popup.css";

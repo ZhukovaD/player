@@ -19,7 +19,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-webp": "^2.3.0",
     "posthtml-include": "^1.1.0",
-    "run-sequence": "^2.2.0",
+    "run-sequence": "^2.2.1",
     "stylelint": "8.1.x"
   },
   "scripts": {
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "gulp": "^3.9.1",
-    "postcss-import": "^11.0.0",
+    "postcss-import": "^11.1.0",
     "postcss-url": "^7.3.0",
     "pum": "0.0.6",
     "pump": "^2.0.0"
